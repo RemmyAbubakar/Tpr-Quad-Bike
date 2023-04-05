@@ -8,7 +8,7 @@ function VideoHome() {
           src="/images/quadbikevid.mp4"
           autoPlay
           loop
-          muted
+          controls
           className="w-full rounded-3xl object-cover"
         />
       </div>

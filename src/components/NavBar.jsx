@@ -27,7 +27,7 @@ function NavBar() {
           <div className="mb-3 lg:mr-20 md:mr-16 sm:mr-7 mt-4">
             <div className="flex">
               <Link to="https://tpr-quad-biking.reservio.com/services">
-                <div className="bg-red-800 p-2 sm:p-1 text-white w-32 sm:w-20 flex justify-center rounded-lg mr-6 sm:mr-4 font-bold font-second">
+                <div className="bg-red-800 lg:p-2 md:p-2 sm:p-1 text-white lg:w-32 md:w-32 sm:w-20 flex justify-center rounded-lg mr-6 sm:mr-4 font-bold font-second">
                   <h3>Book</h3>
                 </div>
               </Link>
