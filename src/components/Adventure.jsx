@@ -1,6 +1,5 @@
 import React from "react";
-import Flip from "react-reveal/Flip";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function Adventure() {
   return (
