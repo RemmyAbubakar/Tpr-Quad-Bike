@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div className="flex justify-center">
-        <div className="bg-black lg:w-48 md:w-40 sm:w-20  rounded-full lg:mt-2 md:mt-2 sm:mt-2 h-1 mb-3"></div>
+        <div className="bg-black lg:w-48 md:w-40 sm:w-20 rounded-full lg:mt-3 md:mt-2 sm:mt-2 h-1 mb-3"></div>
       </div>
 
       <Adventure />

@@ -6,15 +6,15 @@ function Adventure() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
         <img
           src="/images/quad5.jpg"
-          className="h-52 w-[100%] rounded-2xl object-cover"
+          className="lg:h-96 md:h-96 sm:h-52 w-[100%] rounded-2xl object-cover"
         />
         <img
           src="/images/quad2.jpg"
-          className="h-52 w-[100%] rounded-2xl object-cover"
+          className="lg:h-96 md:h-96 sm:h-52 w-[100%] rounded-2xl object-cover"
         />
         <img
           src="/images/quad4.jpg"
-          className="h-52 w-[100%] rounded-2xl object-cover"
+          className="lg:h-96 md:h-96 sm:h-52 w-[100%] rounded-2xl object-cover"
         />
       </div>
     </div>
