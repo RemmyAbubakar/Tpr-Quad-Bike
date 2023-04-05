@@ -7,17 +7,34 @@ import { SlPhone } from "react-icons/sl";
 
 function Footer() {
   return (
-    <div className="py-0 sticky bottom-0 z-50 bg-gradient-to-r from-white to-red-100 shadow-2xl rounded-t-2xl cursor-pointer p-4 h-14 lg:hidden md:hidden ">
+    <div className="py-0 sticky bottom-0 z-50 bg-black shadow-3xl rounded-t-[1.5rem] cursor-pointer p-4 h-[4.5rem] lg:hidden md:hidden ">
       <nav className=" mt-4">
         <div className="flex justify-between items-center">
-          <div className="mt-4">
-            <AiOutlineHome size={30} />
+          <div className="mt-4 ml-2">
+            <div className="flex justify-center">
+              <AiOutlineHome size={25} color="white" />
+            </div>
+            <div>
+              <h3 className="text-white">Home</h3>
+            </div>
           </div>
-          <div className="mt-4">
-            <RxDashboard size={30} />
+
+          <div className="mt-4 ml-2">
+            <div className="flex justify-center">
+              <RxDashboard size={25} color="white" />
+            </div>
+            <div>
+              <h3 className="text-white">Gallery</h3>
+            </div>
           </div>
-          <div className="mt-4">
-            <SlPhone size={30} />
+
+          <div className="mt-4 ml-2">
+            <div className="flex justify-center">
+              <SlPhone size={25} color="white" />
+            </div>
+            <div>
+              <h3 className="text-white">Contact</h3>
+            </div>
           </div>
         </div>
       </nav>

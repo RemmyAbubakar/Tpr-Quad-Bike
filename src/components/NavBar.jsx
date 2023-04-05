@@ -27,13 +27,13 @@ function NavBar() {
           <div className="mb-3 lg:mr-20 md:mr-16 sm:mr-7 mt-4">
             <div className="flex">
               <Link to="https://tpr-quad-biking.reservio.com/services">
-                <div className="bg-red-800 lg:p-2 md:p-2 sm:p-1 text-white lg:w-32 md:w-32 sm:w-20 flex justify-center rounded-lg mr-6 sm:mr-4 font-bold font-second">
+                <div className="bg-red-800 lg:p-2 md:p-2 sm:p-1 text-white lg:w-32 md:w-32 sm:w-32 flex justify-center rounded-lg mr-6 sm:mr-1 font-bold font-second">
                   <h3>Book</h3>
                 </div>
               </Link>
 
               <button>
-                <div class="space-y-2">
+                <div class="space-y-2 sm:hidden">
                   <span class="block w-5 h-0.5 bg-gray-600"></span>
                   <span class="block w-8 h-0.5 bg-gray-600"></span>
                   <span class="block w-8 h-0.5 bg-gray-600"></span>
