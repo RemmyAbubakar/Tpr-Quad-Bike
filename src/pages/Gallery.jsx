@@ -7,8 +7,6 @@ function Gallery() {
       <div>
         <HomeSlider />
       </div>
-
-      
     </div>
   );
 }

@@ -1,45 +1,60 @@
-import React from 'react'
+import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { AiOutlineHome } from "react-icons/ai";
-import { RxDashboard } from "react-icons/rx";
-import { SlPhone } from "react-icons/sl";
-
+import { IoLogoWhatsapp } from "react-icons/io";
+import { ImFacebook } from "react-icons/im";
+import { SiTiktok } from "react-icons/si";
 
 function Footer() {
   return (
-    <div className="py-0 sticky bottom-0 z-50 bg-black shadow-3xl rounded-t-[1.5rem] cursor-pointer p-4 h-[4.5rem] lg:hidden md:hidden ">
-      <nav className=" mt-4">
-        <div className="flex justify-between items-center">
-          <div className="mt-4 ml-2">
-            <div className="flex justify-center">
-              <AiOutlineHome size={25} color="white" />
-            </div>
-            <div>
-              <h3 className="text-white">Home</h3>
-            </div>
-          </div>
+    <div className="p-5 shadow-2xl rounded-t-md">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-10 justify-center">
+        <div className="flex justify-center">
+          <img
+            alt=""
+            src="/images/quadbikelogo.png"
+            className="lg:ml-14 md:ml-14 sm:ml-7 h-52 w-96 mt-2 sm:h-40 sm:w-72"
+          />
+        </div>
 
-          <div className="mt-4 ml-2">
-            <div className="flex justify-center">
-              <RxDashboard size={25} color="white" />
-            </div>
-            <div>
-              <h3 className="text-white">Gallery</h3>
-            </div>
-          </div>
+        <div className="flex justify-center items-center font-rem lg:text-xl md:text-xl sm:text-md">
+          <div>
+            <h3>
+              No. 1 Quad-Biking Experience in Ghana <br />
+              <span className="text-xl flex justify-center font-bello font-bold">
+                TPR Quad Biking
+              </span>
+              <span className="text-sm flex justify-center font-poppins mt-2">
+                Click “BOOK” below to join the experience.
+              </span>
+            </h3>
 
-          <div className="mt-4 ml-2">
-            <div className="flex justify-center">
-              <SlPhone size={25} color="white" />
-            </div>
-            <div>
-              <h3 className="text-white">Contact</h3>
+            <div className="flex justify-center mt-4">
+              <div className="w-32 bg-red-800 flex justify-center p-1 rounded-lg text-white">
+                <h3>Book</h3>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
+
+        <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center space-x-4">
+            <div>
+              <IoLogoWhatsapp size={30} />
+            </div>
+            <div>
+              <AiOutlineInstagram size={30} />
+            </div>
+            <div>
+              <ImFacebook size={30} />
+            </div>
+            <div>
+              <SiTiktok size={30} />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Footer
+export default Footer;

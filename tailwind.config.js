@@ -30,6 +30,7 @@ module.exports = {
       another: ["Ultra", "serif"],
       poppins: ["Poppins", "sans-serif"],
       rem: ['Aclonica', "sans-serif"],
+      bello: ['Quicksand', "sans-serif"],
     },
   },
   plugins: [],
