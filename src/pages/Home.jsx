@@ -1,4 +1,6 @@
 import React from "react";
+import { HiArrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import Adventure from "../components/Adventure";
 import VideoHome from "../components/VideoHome";
 
@@ -10,7 +12,7 @@ function Home() {
       </div>
 
       <div className="font-rem lg:text-3xl md:text-3xl flex justify-center sm:mt-3">
-        <h3>Quad Bike Adventure</h3>
+        <h3>Our Quad Bike Adventure</h3>
       </div>
 
       <div className="flex justify-center">
@@ -18,6 +20,15 @@ function Home() {
       </div>
 
       <Adventure />
+
+      <div className="hidden md:flex md:justify-center lg:flex lg:justify-center cursor-pointer">
+        <Link to="/gallery">
+          <div className="flex lg:mt-4 md:mt-4 justify-center items-center font-saf text-xl mb-10 ">
+            <h3>View More</h3>
+            <HiArrowRight className="ml-2" />
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }
