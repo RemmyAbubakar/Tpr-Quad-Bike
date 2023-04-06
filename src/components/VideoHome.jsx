@@ -40,6 +40,17 @@ function VideoHome() {
         </div>
       </div>
 
+      <div className="hidden md:flex lg:flex justify-center mt-20 space-x-5">
+        <img alt="" src="/images/quadjump2.jpg" className="h-96 w-96" />
+        <img alt="" src="/images/quadjump3.jpg" className="h-96 w-96" />
+      </div>
+
+      <div className="hidden md:flex lg:flex mt-3 justify-center">
+        <div className="font-rem bg-red-800 lg:p-2 md:p-2 sm:p-1 text-white md:w-32 sm:w-20 flex justify-center rounded-lg mr-6 sm:mr-4 font-bold text-sm">
+          <h3>Book</h3>
+        </div>
+      </div>
+
       <div className="lg:hidden md:hidden flex justify-center items-center mt-5">
         <div className="space-y-2">
           <h3 className="flex justify-center text-lg font-saf">Welcome to</h3>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoBagOutline } from "react-icons/io5";
 import { IoSearchOutline } from "react-icons/io5";
@@ -8,8 +8,11 @@ import { BsTwitter } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { TbBrandTiktok } from "react-icons/tb";
 import { FaWhatsapp } from "react-icons/fa";
+import HumburgerModal from "./HumburgerModal";
 
 function NavBar() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className="py-0 sticky top-0 z-50 bg-gradient-to-r from-white to-red-100 shadow-2xl rounded-b-2xl cursor-pointer">
       <nav>
@@ -32,7 +35,11 @@ function NavBar() {
                 </div>
               </Link>
 
-              <button>
+              <button
+                onClick={() => {
+                  setOpenModal(true);
+                }}
+              >
                 <div class="space-y-2">
                   <span class="block w-5 h-0.5 bg-gray-600"></span>
                   <span class="block w-8 h-0.5 bg-gray-600"></span>
@@ -43,6 +50,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      {openModal && <HumburgerModal closeModal={setOpenModal} />}
     </div>
   );
 }
