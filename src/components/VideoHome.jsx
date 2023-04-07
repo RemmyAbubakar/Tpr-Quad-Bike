@@ -70,7 +70,7 @@ function VideoHome() {
           </div>
 
           <div className="flex justify-center">
-            <div className="font-rem bg-red-800 p-1 text-white w-24 flex justify-center rounded-md mr-6 sm:mr-4 font-bold text-sm">
+            <div className="font-rem bg-red-800 p-2 text-white w-28 mt-3 flex justify-center rounded-md mr-6 sm:mr-4 font-bold text-sm">
               <h3>Book</h3>
             </div>
           </div>

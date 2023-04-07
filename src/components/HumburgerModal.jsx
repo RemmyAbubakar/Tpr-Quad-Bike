@@ -9,14 +9,14 @@ import { SiTiktok } from "react-icons/si";
 function HumburgerModal({ closeModal }) {
   return (
     <div
-      className="modalBackground fixed flex justify-end p-10 inset-0 h-[100%] bg-neutral-900 bg-opacity-60 w-[100vw] cursor-pointer"
+      className="modalBackground fixed flex justify-center items-center inset-0 h-[100%] bg-neutral-900 bg-opacity-60 w-[100vw] cursor-pointer"
       onClick={() => {
         closeModal(false);
       }}
     >
-      <div className="bg-white lg:h-[40vh] md:h-[40vh] sm:h-[42vh] lg:w-[25rem] md:w-[20rem] sm:w-[20rem] rounded-2xl">
+      <div className="bg-white rounded-2xl lg:p-10 md:p-10 sm:p-7">
         <div className="flex justify-end">
-          <div className="flex mt-5 mr-5">
+          <div className="flex">
             <IoClose
               size={30}
               className="cursor-pointer flex justify-end text-black"
@@ -28,20 +28,20 @@ function HumburgerModal({ closeModal }) {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="Lg:space-y-4 md:space-y-4 sm:space-y-3">
-            <div className="font-saf font-semibold lg:text-2xl md:text-2xl sm:text-xl">
+          <div className="Lg:space-y-4 md:space-y-3 sm:space-y-3">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
               <Link to="/">
                 <h3>Home</h3>
               </Link>
             </div>
 
-            <div className="font-saf font-semibold lg:text-2xl md:text-2xl sm:text-xl">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
               <Link to="/gallery">
                 <h3>Gallery</h3>
               </Link>
             </div>
 
-            <div className="font-saf font-semibold lg:text-2xl md:text-2xl sm:text-xl">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
               <Link to="/gallery">
                 <h3>Contact</h3>
               </Link>
@@ -60,16 +60,16 @@ function HumburgerModal({ closeModal }) {
         <div className="flex justify-center items-center mt-4">
           <div className="flex justify-center items-center space-x-8">
             <div>
-              <IoLogoWhatsapp className="lg:text-3xl md:text-3xl sm:text-2xl" />
+              <IoLogoWhatsapp className="lg:text-3xl md:text-2xl sm:text-2xl" />
             </div>
             <div>
-              <AiOutlineInstagram className="lg:text-3xl md:text-3xl sm:text-2xl" />
+              <AiOutlineInstagram className="lg:text-3xl md:text-2xl sm:text-2xl" />
             </div>
             <div>
               <ImFacebook className="lg:text-3xl md:text-3xl sm:text-2xl" />
             </div>
             <div>
-              <SiTiktok className="lg:text-3xl md:text-3xl sm:text-2xl" />
+              <SiTiktok className="lg:text-3xl md:text-2xl sm:text-2xl" />
             </div>
           </div>
         </div>
