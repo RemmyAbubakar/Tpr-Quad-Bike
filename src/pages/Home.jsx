@@ -31,10 +31,8 @@ function Home() {
         </Link>
       </div>
 
-
-
-      <div className="mb-5">
-        <ContactMap/>
+      <div className="lg:p-5 md:p-10 sm:p-5 rounded-xl">
+        <ContactMap />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { ImFacebook } from "react-icons/im";
@@ -6,8 +7,8 @@ import { SiTiktok } from "react-icons/si";
 
 function Footer() {
   return (
-    <footer className="py-0 bg-gradient-to-r from-white to-red-100 shadow-2xl cursor-pointer">
-      <div className="p-5 shadow-2xl rounded-t-md">
+    <div className="py-0 bg-gradient-to-r bottom-0 from-white to-red-100 cursor-pointer">
+      <footer className="p-5">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 justify-center">
           <div className="flex justify-center">
             <img
@@ -40,22 +41,30 @@ function Footer() {
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center space-x-10">
               <div>
-                <IoLogoWhatsapp size={30} />
+                <Link to="https://api.whatsapp.com/send/?phone=%2B233558331868&text&type=phone_number&app_absent=0">
+                  <IoLogoWhatsapp size={30} />
+                </Link>
               </div>
               <div>
-                <AiOutlineInstagram size={30} />
+                <Link to="https://www.instagram.com/tprquadbiking/">
+                  <AiOutlineInstagram size={30} />
+                </Link>
               </div>
               <div>
-                <ImFacebook size={30} />
+                <Link to="https://www.facebook.com/tprquadbiking/">
+                  <ImFacebook size={30} />
+                </Link>
               </div>
               <div>
-                <SiTiktok size={30} />
+                <Link to="https://www.tiktok.com/@tprquadbiking/">
+                  <SiTiktok size={30} />
+                </Link>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
 }
 

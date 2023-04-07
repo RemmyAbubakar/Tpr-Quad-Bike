@@ -60,16 +60,24 @@ function HumburgerModal({ closeModal }) {
         <div className="flex justify-center items-center mt-4">
           <div className="flex justify-center items-center space-x-8">
             <div>
-              <IoLogoWhatsapp className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              <Link to="https://api.whatsapp.com/send/?phone=%2B233558331868&text&type=phone_number&app_absent=0">
+                <IoLogoWhatsapp className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              </Link>
             </div>
             <div>
-              <AiOutlineInstagram className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              <Link to="https://www.instagram.com/tprquadbiking/">
+                <AiOutlineInstagram className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              </Link>
             </div>
             <div>
-              <ImFacebook className="lg:text-3xl md:text-3xl sm:text-2xl" />
+              <Link to="https://www.facebook.com/tprquadbiking/">
+                <ImFacebook className="lg:text-3xl md:text-3xl sm:text-2xl" />
+              </Link>
             </div>
             <div>
-              <SiTiktok className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              <Link to="https://www.tiktok.com/@tprquadbiking/">
+                <SiTiktok className="lg:text-3xl md:text-2xl sm:text-2xl" />
+              </Link>
             </div>
           </div>
         </div>
