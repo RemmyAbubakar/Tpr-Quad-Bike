@@ -31,7 +31,7 @@ function HomeSlider() {
   };
 
   return (
-    <div className="flex justify-center mt-3">
+    <div className="flex justify-center mt-2">
       <div className="w-[87%]">
         <Slider {...settings}>
           {image.map((ima, index) => (
@@ -39,7 +39,7 @@ function HomeSlider() {
               <img
                 alt=""
                 src={ima.img}
-                className="w-full lg:h-[30rem] md:h-[20rem] sm:h-[13rem] rounded-xl object-cover"
+                className="w-full lg:h-[25rem] md:h-[20rem] sm:h-[13rem] rounded-xl object-cover"
               />
             </div>
           ))}

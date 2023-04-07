@@ -42,7 +42,7 @@ function HumburgerModal({ closeModal }) {
             </div>
 
             <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
-              <Link to="/gallery">
+              <Link to="/contact">
                 <h3>Contact</h3>
               </Link>
             </div>

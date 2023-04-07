@@ -2,6 +2,7 @@ import React from "react";
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Adventure from "../components/Adventure";
+import ContactMap from "../components/ContactMap";
 import VideoHome from "../components/VideoHome";
 
 function Home() {
@@ -28,6 +29,12 @@ function Home() {
             <HiArrowRight className="ml-2" />
           </div>
         </Link>
+      </div>
+
+
+
+      <div className="mb-5">
+        <ContactMap/>
       </div>
     </div>
   );
