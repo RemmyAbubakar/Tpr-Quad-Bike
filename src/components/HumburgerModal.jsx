@@ -29,21 +29,27 @@ function HumburgerModal({ closeModal }) {
 
         <div className="flex justify-center items-center">
           <div className="Lg:space-y-4 md:space-y-3 sm:space-y-3">
-            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl flex justify-center">
               <Link to="/">
                 <h3>Home</h3>
               </Link>
             </div>
 
-            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl flex justify-center">
               <Link to="/gallery">
                 <h3>Gallery</h3>
               </Link>
             </div>
 
-            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl">
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl flex justify-center">
               <Link to="/contact">
                 <h3>Contact</h3>
+              </Link>
+            </div>
+
+            <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl flex justify-center">
+              <Link to="/contact">
+                <h3>Rates & Payments</h3>
               </Link>
             </div>
           </div>

@@ -14,7 +14,7 @@ function Contact() {
       </div>
 
       <div className="flex justify-center mt-8 mb-1 font-rem lg:text-3xl md:text-3xl">
-        <h3>Chat with us!</h3>
+        <h3>Connect with us!</h3>
       </div>
 
       <div className="flex justify-center">
