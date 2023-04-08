@@ -10,9 +10,9 @@ function VideoHome() {
           className="w-full rounded-xl object-cover"
         />
 
-        <div className="hidden md:flex lg:flex">
+        <div className="sm:flex md:flex lg:flex">
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black rounded-2xl bg-opacity-60 md:p-5">
-            <div className="space-y-3">
+            <div className="lg:space-y-3 md:space-y-3 sm:space-y-1">
               <p className="flex justify-center text-white text-xl md:text-3xl lg:text-4xl font-saf">
                 Welcome to
               </p>
@@ -21,16 +21,16 @@ function VideoHome() {
                 TOTAL PRESTIGE RACING
               </p>
 
-              <p className="flex justify-center text-white text-xl md:text-xl lg:text-md font-saf font-normal">
+              <p className="flex justify-center text-white text-xl md:text-xl lg:text-md font-saf font-normal md:flex lg:flex sm:hidden">
                 Enjoy a new quad-biking experience with the best!
               </p>
 
-              <p className="flex justify-center text-white text-xl md:text-sm lg:text-lg font-saf font-normal">
+              <p className="flex justify-center text-white text-xl md:text-sm lg:text-lg font-saf font-normal md:flex lg:flex sm:hidden">
                 We offer high-quality quad bikes and a highly skilled team to
                 make your quad-biking moments once in a lifetime.
               </p>
 
-              <div className="flex justify-center">
+              <div className="flex justify-center md:flex lg:flex sm:hidden">
                 <div className="font-rem bg-red-800 lg:p-2 md:p-2 sm:p-1 text-white md:w-32 sm:w-20 flex justify-center rounded-lg mr-6 sm:mr-4 font-bold text-sm">
                   <h3>Book</h3>
                 </div>
@@ -51,13 +51,9 @@ function VideoHome() {
         </div>
       </div>
 
-      <div className="lg:hidden md:hidden flex justify-center items-center mt-5">
+      <div className="lg:hidden md:hidden flex justify-center items-center mt-7">
         <div className="space-y-2">
-          <h3 className="flex justify-center text-lg font-saf">Welcome to</h3>
-          <h3 className="flex justify-center text-2xl font-pri">
-            TOTAL PRESTIGE RACING
-          </h3>
-          <h3 className="flex justify-center text-md font-saf font-normal">
+          <h3 className="flex justify-center text-md font-saf font-normal text-center">
             Enjoy a new quad-biking experience with the best!
           </h3>
           <h3 className="flex justify-center text-md font-saf font-normal text-center	">
