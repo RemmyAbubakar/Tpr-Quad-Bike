@@ -48,7 +48,7 @@ function HumburgerModal({ closeModal }) {
             </div>
 
             <div className="font-saf font-semibold lg:text-2xl md:text-xl sm:text-xl flex justify-center">
-              <Link to="/contact">
+              <Link to="/rateandpayments">
                 <h3>Rates & Payments</h3>
               </Link>
             </div>
